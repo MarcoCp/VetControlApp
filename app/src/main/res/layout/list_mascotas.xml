@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/imagenPostMascotas"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nombre Mascota"
+        android:id="@+id/textoNombreMascotas"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imagenPostMascotas"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Especie"
+        android:textStyle="bold"
+        android:id="@+id/textoEspecieMascotas"
+        android:layout_below="@+id/textoNombreMascotas"
+        android:layout_alignLeft="@+id/textoNombreMascotas" />
+
+    <TextView
+        android:id="@+id/textoRazaMascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoEspecieMascotas"
+        android:layout_below="@+id/textoEspecieMascotas"
+        android:text="Raza"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textoPeloMascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoRazaMascotas"
+        android:layout_below="@+id/textoRazaMascotas"
+        android:text="Color de Pelo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fecha"
+        android:id="@+id/textoFechaMascotas"
+        android:layout_below="@+id/textoPeloMascotas"
+        android:layout_alignLeft="@+id/textoPeloMascotas" />
+</RelativeLayout>

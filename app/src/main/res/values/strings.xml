@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VetControl</string>
+    <string name="creditos">Proyecto en desarrollo por MarcoCp</string>
+    <string name="AppClientes">App para el cliente en versión alpha</string>
+
+    <string name="title_activity_detalles">DetallesActivity</string>
+    <string name="tab_text_1">Cliente</string>
+    <string name="tab_text_2">Mascotas</string>
+    <string name="tab_text_3">Consultas</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_close">Salir</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

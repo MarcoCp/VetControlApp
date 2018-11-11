@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nombre Consulta"
+        android:id="@+id/textoConsultaConsultas"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nombre Mascota"
+        android:textStyle="bold"
+        android:id="@+id/textoMascotaConsultas"
+        android:layout_below="@+id/textoConsultaConsultas"
+        android:layout_alignLeft="@+id/textoConsultaConsultas" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Descripcion larga y aburrida"
+        android:id="@+id/textoDescripcionConsultas"
+        android:layout_below="@+id/textoMascotaConsultas"
+        android:layout_alignLeft="@+id/textoMascotaConsultas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10/10/10"
+        android:id="@+id/textoFechaConsultas"
+        android:layout_below="@+id/textoDescripcionConsultas"
+        android:layout_alignLeft="@+id/textoDescripcionConsultas" />
+
+    <TextView
+        android:id="@+id/textoCostoConsultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textoDescripcionConsultas"
+        android:layout_alignRight="@+id/textoDescripcionConsultas"
+        android:layout_below="@+id/textoDescripcionConsultas"
+        android:text="S/. 00"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+</RelativeLayout>
